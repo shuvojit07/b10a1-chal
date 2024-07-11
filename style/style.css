@@ -214,7 +214,7 @@
 /* current-target */
 .current-target{
     margin-top: 115px;
-    text-align: center;
+    
 }
 /* current-target-info */
 .current-target-info{
@@ -248,6 +248,8 @@
 /* current-target-detail */
 .current-target-detail{
     display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 /* c t shared bg */
@@ -265,7 +267,38 @@
     width: 284px;
     height: 219px;
     padding: 40px;
-    
     border-radius: 16px;
-    margin: 0px 24px;
+    margin: 0px 15px;
+
+}
+.current-target-detail-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 8px 0px;
+    }
+    .current-target-detail-subtitle{
+        color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+        }
+.current-target-detail-learn{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+margin-top: 35px;
 }
